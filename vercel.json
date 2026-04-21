@@ -1,8 +1,13 @@
 {
   "functions": {
-    "rsa_enkripsi_url.php": {
+    "api/rsa_enkripsi_url.php": {
       "runtime": "vercel-php@0.7.0"
     }
   },
-  "routes": [{ "src": "/(.*)", "dest": "/rsa_enkripsi_url.php" }]
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/rsa_enkripsi_url.php"
+    }
+  ]
 }
