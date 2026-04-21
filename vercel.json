@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/rsa_enkripsi_url.php": {
-      "runtime": "vercel-php@0.7.0"
+      "runtime": "vercel-php@0.7.2"
     }
   },
   "routes": [
